@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+}
+.banner{
+    height: 80px;
+    width: full;
+    background-color: rgb(244, 176, 18);
+}
+.banner h4 {
+    margin-top: 0;
+    padding: 30px 10px 10px 0px;
+    text-align: center;
+}
+.dashboard {
+    height: 130vh;
+}
+.fixed {
+    position: fixed;
+    width: 100%;
+}
+.right-content h3 {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: block;
+    font-weight: bold;
+}
+img {
+    width: 60px;
+    float: left;
+    margin-right: 20px;
+}
+span.ten {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+span.giatien {display: block;}
+.menu {
+    width: 500px;
+    float: left;
+    margin-right: 40px;
+}
+.menu ul li {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.btn-adding {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 20px;
+    width: 22px;
+    height: 22px;
+    background-color: #ee4d2d;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 6px;
+    color: #fff;
+}
+.menu ul li:after {
+    clear: both;
+    content: "";
+    display: block;
+    width: 100%;
+}
+.thanhtoan {
+    width: 300px;
+    float: left;
+    position: relative;
+}
+.thanhtoan h3{
+    position: relative;
+    bottom: 20px;
+}
+ul#thanhtoan li:after {
+    clear: both;
+    display: block;
+    content: "";
+    height: 8px;
+}
+
+/* style nút xóa  */
+span.btn-thanhtoan-reset {
+    background: #f33404;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+span.btn-thanhtoan-reset:hover {
+    background: #ad5039;
+}
+
+/* style nút đăng ký  */
+
+span.btn-dang-ky {
+    background: #4beb61;
+    padding: 15px;
+    margin-top: 80px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+span.btn-dang-ky:hover {
+    background: #15f532;
+}
+
+/* style nút random */
+span.btn-tu-dong {
+    background: #4beb61;
+    padding: 15px;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+span.btn-tu-dong:hover {
+    background: #15f532;
+}
+
+span#soluong {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+}
+
+.hientongtien {
+    position: relative;
+    width: 300px;
+    float: left;
+}
+
+.hientongtien h3 {
+    position: relative;
+    bottom: 20px;
+}
+
+span#tongsotien {
+    position: absolute;
+    right: 0;
+    font-weight: bold;
+}
+.btn-xoa {
+    background: #ccc;
+    display: block;
+    width: 16px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    float: right;
+    cursor: pointer;
+}
+.btn-xoa:hover {
+    background: #af981d;
+    
+}
+
+#ketqua{
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    min-height: 30px;
+    max-width: 75%;
+    background-color: #ffffcc;
+    margin-bottom: 30px;
+    border-left: 6px solid #ccc;
+    border-color: #ffeb3b;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+}
+#thanhcong{
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    min-height: 30px;
+    max-width: 75%;
+    background-color: #81ee81;
+    margin-bottom: 30px;
+    border-left: 6px solid #ccc;
+    border-color: #048520;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+}
+footer{
+    height: 30px;
+    width: fit-content;
+    background-color: rgba(224, 29, 29, 0.61);
+}

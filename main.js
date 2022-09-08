@@ -89,10 +89,14 @@ var body = document.querySelector('body');
         console.log("click vao body....")
         console.log(event.target)
     if(event.target.matches(".btn-xoa")){
-        var viTriCanXoa = event.target.getAttribute('data-attr');
-        console.log(viTriCanXoa)
-        arrayGioHang.splice(viTriCanXoa, 1);
-        loadGioHang()
+        if(confirm('Bạn có chắc hủy môn học này không ?') === true){
+            var viTriCanXoa = event.target.getAttribute('data-attr');
+            console.log(viTriCanXoa)
+            arrayGioHang.splice(viTriCanXoa, 1);
+            loadGioHang()
+        } else{
+
+        }  
     }
 })
 
